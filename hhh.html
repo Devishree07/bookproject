@@ -1,0 +1,21 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>mouse over and mouse out</title>
+<script type="text/javascript">
+/*mouse over and mouseout*/
+function setNewImage()
+{
+ document.getElementById("img1").src="ff.jpeg";
+ }
+function setOldImage()
+{
+ document.getElementById("img1").src="silentpatient.jpg";
+ }
+</script>
+</head>
+<body>
+<img id="img1" onmouseover="setNewImage()" onmouseout="setOldImage()"
+src="silentpatient.jpg">
+</body>
+</html>

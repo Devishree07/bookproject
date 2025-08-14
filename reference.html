@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Book Collection</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header .hero {
+    background-image: url('a');
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header .hero h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header .hero p {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.book-list {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.book-item {
+    display: flex;
+    background: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.book-item img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.book-info h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.book-info p {
+    margin: 10px 0;
+}
+
+.book-info a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.book-info a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="hero">
+            <h1>Welcome to My Book Collection</h1>
+            <p>Your go-to place for book recommendations and links!</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="book-list">
+            <h2>Featured Books</h2>
+            <div class="book-item">
+                <img src="book1-cover.jpg" alt="Book 1 Cover">
+                <div class="book-info">
+                    <h3>Book Title 1</h3>
+                    <p>Author: John Doe</p>
+                    <p>Short description of the book goes here. It's an engaging and thrilling story about...</p>
+                    <a href="https://link-to-book.com" target="_blank">Read More / Buy Now</a>
+                </div>
+            </div>
+            <!-- Repeat book-item for more books -->
+            <div class="book-item">
+                <img src="book2-cover.jpg" alt="Book 2 Cover">
+                <div class="book-info">
+                    <h3>Book Title 2</h3>
+                    <p>Author: Jane Smith</p>
+                    <p>Another brief description. This book dives into the mysteries of...</p>
+                    <a href="https://link-to-book.com" target="_blank">Read More / Buy Now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact: myemail@example.com</p>
+        <p>&copy; 2025 My Book Collection</p>
+    </footer>
+
+</body>
+</html>
